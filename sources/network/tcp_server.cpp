@@ -160,7 +160,7 @@ tcp_server::get_io_service(void) const {
 //! get client sockets
 //!
 
-const std::list<std::shared_ptr<tacopie::tcp_client>>&
+std::list<std::shared_ptr<tacopie::tcp_client>>
 tcp_server::get_clients(void) const {
   return m_clients;
 }

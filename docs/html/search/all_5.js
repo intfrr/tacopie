@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['get_5fclients',['get_clients',['../classtacopie_1_1tcp__server.html#a0df81b943243ad51102c37d4944be8d7',1,'tacopie::tcp_server']]],
+  ['get_5fclients',['get_clients',['../classtacopie_1_1tcp__server.html#ab98d0a169bda6915dd46f1cd117d37a6',1,'tacopie::tcp_server']]],
   ['get_5ffd',['get_fd',['../classtacopie_1_1tcp__socket.html#a4fd367a1802ed6ae7fa0e33fc07ed255',1,'tacopie::tcp_socket']]],
   ['get_5ffile',['get_file',['../classtacopie_1_1tacopie__error.html#a10360163c780a1bd9c95fcecca5aa6da',1,'tacopie::tacopie_error']]],
   ['get_5fhost',['get_host',['../classtacopie_1_1tcp__client.html#ad38ab710c5eca64de2f887abc455b15d',1,'tacopie::tcp_client::get_host()'],['../classtacopie_1_1tcp__socket.html#ad294565f9a0fa52639ecfbf133eecd59',1,'tacopie::tcp_socket::get_host()']]],

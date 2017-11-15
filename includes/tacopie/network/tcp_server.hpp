@@ -121,7 +121,7 @@ public:
   //!
   //! \return the list of tacopie::tcp_client connected to the server.
   //!
-  const std::list<std::shared_ptr<tacopie::tcp_client>>& get_clients(void) const;
+  std::list<std::shared_ptr<tacopie::tcp_client>> get_clients(void) const;
 
 private:
   //!

@@ -40,7 +40,7 @@ const \hyperlink{classtacopie_1_1tcp__socket}{tcp\+\_\+socket} \& \hyperlink{cla
 \item 
 const std\+::shared\+\_\+ptr$<$ \hyperlink{classtacopie_1_1io__service}{tacopie\+::io\+\_\+service} $>$ \& \hyperlink{classtacopie_1_1tcp__server_aace4796627b6abccccce1a541908414f}{get\+\_\+io\+\_\+service} (void) const
 \item 
-const std\+::list$<$ std\+::shared\+\_\+ptr$<$ \hyperlink{classtacopie_1_1tcp__client}{tacopie\+::tcp\+\_\+client} $>$ $>$ \& \hyperlink{classtacopie_1_1tcp__server_a0df81b943243ad51102c37d4944be8d7}{get\+\_\+clients} (void) const
+std\+::list$<$ std\+::shared\+\_\+ptr$<$ \hyperlink{classtacopie_1_1tcp__client}{tacopie\+::tcp\+\_\+client} $>$ $>$ \hyperlink{classtacopie_1_1tcp__server_ab98d0a169bda6915dd46f1cd117d37a6}{get\+\_\+clients} (void) const
 \end{DoxyCompactItemize}
 
 
@@ -59,11 +59,11 @@ callback called whenever a new client is connecting to the server
 Takes as parameter a shared pointer to the \hyperlink{classtacopie_1_1tcp__client}{tcp\+\_\+client} that wishes to connect Returning true means connection is handled by \hyperlink{classtacopie_1_1tcp__client}{tcp\+\_\+client} wrapper and nothing will be done by \hyperlink{classtacopie_1_1tcp__server}{tcp\+\_\+server}. Returning false means connection is handled by \hyperlink{classtacopie_1_1tcp__server}{tcp\+\_\+server}, will be stored in an internal list and \hyperlink{classtacopie_1_1tcp__client}{tcp\+\_\+client} disconection\+\_\+handler overriden. 
 
 \subsection{Member Function Documentation}
-\mbox{\Hypertarget{classtacopie_1_1tcp__server_a0df81b943243ad51102c37d4944be8d7}\label{classtacopie_1_1tcp__server_a0df81b943243ad51102c37d4944be8d7}} 
+\mbox{\Hypertarget{classtacopie_1_1tcp__server_ab98d0a169bda6915dd46f1cd117d37a6}\label{classtacopie_1_1tcp__server_ab98d0a169bda6915dd46f1cd117d37a6}} 
 \index{tacopie\+::tcp\+\_\+server@{tacopie\+::tcp\+\_\+server}!get\+\_\+clients@{get\+\_\+clients}}
 \index{get\+\_\+clients@{get\+\_\+clients}!tacopie\+::tcp\+\_\+server@{tacopie\+::tcp\+\_\+server}}
 \subsubsection{\texorpdfstring{get\+\_\+clients()}{get\_clients()}}
-{\footnotesize\ttfamily const std\+::list$<$std\+::shared\+\_\+ptr$<$\hyperlink{classtacopie_1_1tcp__client}{tacopie\+::tcp\+\_\+client}$>$ $>$\& tacopie\+::tcp\+\_\+server\+::get\+\_\+clients (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+{\footnotesize\ttfamily std\+::list$<$std\+::shared\+\_\+ptr$<$\hyperlink{classtacopie_1_1tcp__client}{tacopie\+::tcp\+\_\+client}$>$ $>$ tacopie\+::tcp\+\_\+server\+::get\+\_\+clients (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
 
 \begin{DoxyReturn}{Returns}
 the list of \hyperlink{classtacopie_1_1tcp__client}{tacopie\+::tcp\+\_\+client} connected to the server. 
